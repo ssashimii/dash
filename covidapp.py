@@ -171,5 +171,5 @@ def update_charts(region, start_date, end_date):
     return confirmed_chart_figure, deaths_chart_figure, recovered_chart_figure
 
 
-if __name__ == "__main__":
-    app.run_server(debug=True)
+# if __name__ == "__main__":
+#     app.run_server(debug=True)
