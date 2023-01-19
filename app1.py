@@ -11,6 +11,7 @@ df.sort_values("Date", inplace=True)
 
 
 app = dash.Dash(__name__)
+server = app.server
 app.title = "COVID-19 ANALYTICS"
 
 app.layout = html.Div(
